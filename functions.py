@@ -8,3 +8,7 @@ def askUser():
         except ValueError as v:
             pass # handle the exception silently
 
+if __name__ == '__main__':
+    '''We always use this to exercise the current module (check this module works as intended)'''
+    i = askUser()
+    print(f'User entered {i}')
