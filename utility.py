@@ -18,6 +18,7 @@ if __name__ == '__main__': # we know this module is being run directly
     # check the functions operate as intended
     for _ in range(0,10):
         print(f'{_} is odd: {checkIfOdd(_)}')
+        print(f'{_} square root: {showSqrt(_)}')
 
 # else:
 #     print(f'This module has been imported as {__name__}')
