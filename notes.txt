@@ -31,10 +31,10 @@ q - can we use float in a range???
 > print() and input()
 > maths operators and data types
 > the if statement for conditional logic
-- while loop, break and pass
+> while loop, break and pass
 > indentation
 > immutable strings
-- print formatting
+> print formatting f'' or ''.format()
 > square bracket notation for slicing iterable collections
 - memory efficiency
 > identifiers
@@ -43,13 +43,14 @@ q - can we use float in a range???
 > validate input before casting it
 - string manipulation
 - Lists, Tuples and nested collections
-- after lunch review exercise
+> after lunch review exercise
 - dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
 - very big numeric values
 - += etc.
 - pep8 coding style suggestions for Python
 - looping with 'for'
+- importing other modules
 - if __name__ ...
 
 Tuesday
