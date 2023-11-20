@@ -10,16 +10,17 @@ Toby Dussek
 3:00  tea until 3:15
 4:30  end
 
-
-
 Course Website: 
 https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python/site/index.html
+
+Course recordings
+- access via the course website the day after recording
 
 Code Repo
 https://github.com/onionmccabbage/pythonIntroNov2023
 
 Monday
-- Welcome
+> Welcome
 - where to write code: immediate, module (just a file) etc.
   Pycharm or VSCode or ...
 q - code  completion and introspection - how to see what is available
@@ -27,19 +28,19 @@ q - code  completion and introspection - how to see what is available
 q - can we use float in a range???
 - overview of Python 3 (and Python 2)
 - architecture, structure, and professional code best practice
-- print() and input()
-- maths operators and data types
-- the if statement for conditional logic
+> print() and input()
+> maths operators and data types
+> the if statement for conditional logic
 - while loop, break and pass
-- indentation
-- immutable strings
+> indentation
+> immutable strings
 - print formatting
-- square bracket notation for iterable collections
+> square bracket notation for slicing iterable collections
 - memory efficiency
-- identifiers
-- boolean True and False
+> identifiers
+> boolean True and False
 - type and type conversion
-- validate input before casting it
+> validate input before casting it
 - string manipulation
 - Lists, Tuples and nested collections
 - after lunch review exercise
