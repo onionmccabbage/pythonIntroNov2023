@@ -24,6 +24,7 @@ Monday
 - Welcome
 - where to write code: immediate, module (just a file) etc.
   Pycharm or VSCode or ...
+q - code  completion and introspection - how to see whatr is available
 - overview of Python 3 (and Python 2)
 - architecture, structure, and professional code best practice
 - print() and input()
