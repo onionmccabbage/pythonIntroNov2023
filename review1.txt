@@ -1,4 +1,4 @@
-Review 1 1hr (until tea break at 3:00)
+Review 1 1hr tea break until 3:15
 ========
 Ask the user to enter a guess until they get it right 
 (Guess an integer between 0 and 100)
