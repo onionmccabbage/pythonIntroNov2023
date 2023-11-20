@@ -19,10 +19,14 @@ def game():
     guess = 999 # set an initial value that is out of range
     # keep the game running
     while guess != target:
-        guess = int(float(input('guess:'))) # make sure it's an int
+        try:
+            guess = int(float(input('guess:'))) # make sure it's an int
+        except ValueError as ve:
+            pass # not a good idea!!!
         # conditionally act on the guess
         if guess == target: # did they get it right
-            print(f'correct it was {target}' )
+            # print(f'correct it was {target}' )
+            print('correct it was {}'.format(target) )
             # since guess now equals target, the while loop will end
         elif guess == -2: # do they want a clue
             print (f'CLUE: odd: {is_odd} even: {is_even} square: {is_square} prime: {is_prime}' )
