@@ -2,6 +2,8 @@
 import utility
 import functions
 
+# by convention we call the main module 'main'
+# and conventionally we call the main function 'main'
 def main():
     n = functions.askUser()
     # n = 4
