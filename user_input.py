@@ -32,7 +32,10 @@ def askUser():
 
 # we will KEEP asking until they enter a positive number
 g = -99
-while g<1:
+# while True: # this is often called a run-loop
+while g<1: # this is often called a run-loop
     g = askUser()
+    # if g>0:
+    #     break # break will end a while loop (or any other loop)
 
 print(g)
