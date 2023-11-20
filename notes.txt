@@ -12,8 +12,6 @@ Toby Dussek
 
 
 
-
-
 Course Website: 
 https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python/site/index.html
 
@@ -24,7 +22,8 @@ Monday
 - Welcome
 - where to write code: immediate, module (just a file) etc.
   Pycharm or VSCode or ...
-q - code  completion and introspection - how to see whatr is available
+q - code  completion and introspection - how to see what is available
+q - can we use shortcut keys to indent (format) like shift-F4
 - overview of Python 3 (and Python 2)
 - architecture, structure, and professional code best practice
 - print() and input()
