@@ -1,0 +1,16 @@
+Review2 about 30 mins
+=======
+Design a python application using good archtecture (modules inside packages)
+In one module, ask the user to enter a non-empty string of text
+In another module, validate that this string is indeed non-empty
+In another module, commit this text string to a txt file 
+A main module will bring all these parts together
+If the user enters 'quit' then stop writing to the file
+Otherwise, keep asking the uisef for entries and write to file
+If the user enters 'read' then stop writing and read it all back again
+(use another module)
+
+Optional
+--------
+import datetime and always add a date stamp to the written file
+write bytes instead of text
