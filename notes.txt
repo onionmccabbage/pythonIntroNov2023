@@ -65,7 +65,7 @@ Tuesday
 - range, generators
 - set comprehension, list compresension, dictionary comprehension
 - other implementations of Python: cpython is the default - also jython ipython ironpython
-- functions, *args, **kwargs  
+> functions, *args, **kwargs  
 - also, passing command-line arguments (which are ALWAYS strings)
 - to add libraries to python:
   - python -m ensurepip
