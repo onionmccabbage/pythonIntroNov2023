@@ -1,5 +1,3 @@
-import subpack.more
-
 # we can say this module in inside the 'useful' namespace
 # because it is in the pckage called 'useful'
 count = 2
@@ -12,4 +10,11 @@ def m():
     return 'this is function m inside package useful'
 
 # call imported
-print(subpack.more.here())
+def main():
+    print(more.here()) # found!!
+
+if __name__ == '__main__':
+    import subpack.more as more# use a path when this module is run directly
+    main()
+else:
+    import useful.subpack.more as more # use a relative path when this is already imported 

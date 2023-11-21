@@ -1,4 +1,5 @@
 # we can import from other packages
+# when code is imported it runs as if it is part of THIS module
 import useful.a
 import useful.b # package.module
 
