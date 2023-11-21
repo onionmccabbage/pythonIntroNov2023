@@ -3,9 +3,10 @@ import doctest
 
 def cube(x):
     '''return the cube of x
+       we can write tests within the documentation
     >>> cube(3)
     27
-    >>> cube(-2)
+    >>> cube(-2) # we can comment on the statement
     -8'''
     return x**3
 
