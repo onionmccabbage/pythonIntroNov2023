@@ -46,8 +46,8 @@ q - can we use float in a range???
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 > import, pip, libraries and modules
- - problem with sub folders and relative path....
-- very big numeric values
+> problem with sub folders and relative path....
+> very big numeric values
 > += etc.
 - pep8 coding style suggestions for Python
 > looping with 'for'
@@ -77,11 +77,11 @@ Tuesday
 > requests
 > strings with triple quotes
 > exception handling (try-except etc.)
-- review exercise
+> review exercise
 > import path
 - overview of testing
 > File input and output
-- bytes (binary files)
+> bytes (binary files)
 
 Wednesday
 - brief review so far
