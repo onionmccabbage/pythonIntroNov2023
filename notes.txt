@@ -42,9 +42,9 @@ q - can we use float in a range???
 - type and type conversion
 > validate input before casting it
 - string manipulation
-- Lists, Tuples and nested collections
+> Lists, Tuples and nested collections
 > after lunch review exercise
-- dictionaries (non-numeric indexed iterable collections)
+> dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
 - very big numeric values
 > += etc.
@@ -59,7 +59,7 @@ Tuesday
 > Python 2 migrate to Python 3
   https://docs.python.org/3/howto/pyporting.html
 > Why use functions (rather than shorter code)
-- can we import modules having same name but from different packages
+> can we import modules having same name but from different packages
 - Python does NOT support 'private' 'protected' or 'internal'
   we will see something similar with classes
 - block scope and global scope
