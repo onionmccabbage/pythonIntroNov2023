@@ -16,6 +16,5 @@ def writeParts(n):
     except Exception as e:
         print(f'Problem: {e}')
 
-
 if __name__ == '__main__':
     writeParts('Here is a very long amount of pointless badly speeeled text which I will commit to a file in a short while honstly I will')

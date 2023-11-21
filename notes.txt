@@ -80,7 +80,8 @@ Tuesday
 - review exercise
 > import path
 - overview of testing
-- File input and output
+> File input and output
+- bytes (binary files)
 
 Wednesday
 - brief review so far
