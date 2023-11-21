@@ -1,3 +1,5 @@
+import subpack.more
+
 # we can say this module in inside the 'useful' namespace
 # because it is in the pckage called 'useful'
 count = 2
@@ -8,3 +10,6 @@ def showCount():
 
 def m():
     return 'this is function m inside package useful'
+
+# call imported
+print(subpack.more.here())

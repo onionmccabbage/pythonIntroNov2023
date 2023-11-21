@@ -45,7 +45,8 @@ q - can we use float in a range???
 > Lists, Tuples and nested collections
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
-- import, pip, libraries and modules
+> import, pip, libraries and modules
+ - problem with sub folders and relative path....
 - very big numeric values
 > += etc.
 - pep8 coding style suggestions for Python
@@ -68,6 +69,7 @@ Tuesday
 - set comprehension, list compresension, dictionary comprehension
 - other implementations of Python: cpython is the default - also jython ipython ironpython
 > functions, *args, **kwargs  
+- debug...
 - also, passing command-line arguments (which are ALWAYS strings)
 - to add libraries to python:
   - python -m ensurepip
