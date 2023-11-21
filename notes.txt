@@ -60,6 +60,8 @@ Tuesday
   https://docs.python.org/3/howto/pyporting.html
 > Why use functions (rather than shorter code)
 - can we import modules having same name but from different packages
+- Python does NOT support 'private' 'protected' or 'internal'
+  we will see something similar with classes
 - block scope and global scope
 - follow good practice for architecture and performance
 - range, generators
