@@ -17,5 +17,8 @@ def main():
     result = utility.checkIfOdd(n)
     print(f'{n} is odd: {result}')
 
+def other():
+    print('are we there yet???')
+
 if __name__ == '__main__':
     main() # only call the main function if this module is being run direclty (not via import)
