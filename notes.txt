@@ -36,7 +36,7 @@ Monday
 > immutable strings
 > print formatting f'' or ''.format()
 > square bracket notation for slicing iterable collections
-- memory efficiency
+> memory efficiency
 > identifiers
 > boolean True and False
 > type and type conversion list() tuple() str() int() float()
@@ -64,10 +64,11 @@ Tuesday
 > Python does NOT support 'private' 'protected' or 'internal'
   we will see something similar with classes
 > block scope and global scope
-- follow good practice for architecture and performance
->range, generators
-- set comprehension, list compresension, dictionary comprehension
-- other implementations of Python: cpython is the default - also jython ipython ironpython
+> follow good practice for architecture and performance
+> range, generators
+> set comprehension, list compresension, dictionary comprehension
+> other implementations of Python: cpython is the default - also jython ipython ironpython
+  the most common flavour of python is written in C
 > functions, *args, **kwargs  
 > debug...
 > also, passing command-line arguments (which are ALWAYS strings)
@@ -95,13 +96,14 @@ Wednesday
 > data modelling structures: 
     use built in structures until they do not suit the purpose (then use classes)
 > Objects and Classes (OOP)
-q - can we use [] with classes?
-q - be specific where we read/write files
+q - can we use [] to access properties in classes?
+> be specific where we read/write files
+there is a library called 'pandas' which includes the ability to open and save Excel spreadsheets
 > get/set as property decorators @property
 > name mangling (__)
     we should use getter/setter to prevent direct access, 
     but we can add arbitrary properies and methods to a class
-- properties, methods, __str__
+> properties, methods, __str__
 > documentation strings (docstring) for classes
 > special operators and overriding
 > inheritance
