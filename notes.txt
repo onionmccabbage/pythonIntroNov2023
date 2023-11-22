@@ -88,7 +88,7 @@ Wednesday
 - Miguel: see if we can resolve system
 - brief review so far
 > functions live in classes, which live in modules which live in packages
-- architecture: modules __init__.py and __name__ == '__main__'
+> architecture: modules __init__.py and __name__ == '__main__'
 - PEP8 style guide
 > generator and yield
 > global and local scope 
@@ -107,7 +107,7 @@ there is a library called 'pandas' which includes the ability to open and save E
 > documentation strings (docstring) for classes
 > special operators and overriding
 > inheritance
-- review exercise
+> review exercise
 - how to format with certain dp
 > debug tools
 - where to go from here:
