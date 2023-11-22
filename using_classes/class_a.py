@@ -8,7 +8,7 @@ person[1] = -99 # there is no built in validation for this structure
 # a class lets us gather related data and validate the values
 # class Person: # by convention we use PascalCase
 # class Person(): # by default every class inherits implicitly from 'object'
-class Person(object): # we may choose to explicitly inheirt from someting else
+class Person(object): # we may choose to explicitly inherit from someting else
     def __init__(self, name, age, level): # every function within a class MUST take 'self'
         '''The initialiser is a bit like a constructor'''
         self.name  = name
@@ -23,6 +23,7 @@ class Person(object): # we may choose to explicitly inheirt from someting else
     def age(self, new_age):
         # we can validate the age to be a number
         # if type(new_age)==int or type(new_age)== float and new_age >= 0:
+        # Python uses shortcut evaluation: if the first condition fails it will NOT bother checking the second
         if type(new_age) in (int, float) and new_age >= 0:
             self.__age = new_age
         else:
@@ -47,7 +48,7 @@ class Person(object): # we may choose to explicitly inheirt from someting else
     def name(self, new_name):
         # this is where we enforce the data type of a class property
         # if type(new_name) == 'str' and new_name != '':
-        if type(new_name) == 'str' and len(new_name)>0:
+        if type(new_name) == str and len(new_name)>0: # str is a type
             self.__name = new_name
         else:
             self.__name = 'Default Name'
@@ -55,7 +56,9 @@ class Person(object): # we may choose to explicitly inheirt from someting else
 if __name__ == '__main__':
     p1 = Person('Agnes', 34, 'user') # we now have an instance of our 'Person' class
     p2 = Person('Orla', 42, 'admin') 
-    print(p1.age, p2.level) # we can see properties of our class instance objects
+    # can we mutate the name?
+    p1.name = 999 # this should be validated and end up with default name
+    print(p1.name, p1.age, p2.level) # we can see properties of our class instance objects
     # print(p1['age'], p2['level']) # or we can use square-bracket notation
     # we can mutate properties of our class
     p1.age = -32 # we need to enforce validation for age

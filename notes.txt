@@ -96,6 +96,7 @@ Wednesday
     use built in structures until they do not suit the purpose (then use classes)
 - Objects and Classes (OOP)
 q - can we use [] with classes?
+q - be specific where we read/write files
 - get/set as property decorators @property
 - name mangling (__)
     we should use getter/setter to prevent direct access, 
