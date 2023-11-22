@@ -1,3 +1,6 @@
+import subpack.more as more # we have the import avaiable for use in this module
+# import useful.subpack.more # if we are then importing this module
+
 # we can say this module in inside the 'useful' namespace
 # because it is in the pckage called 'useful'
 count = 2
@@ -14,7 +17,7 @@ def main():
     print(more.here()) # found!!
 
 if __name__ == '__main__':
-    import subpack.more as more# use a path when this module is run directly
+    import subpack.more as more # use a path when this module is run directly
     main()
 else:
     import useful.subpack.more as more # use a relative path when this is already imported 
