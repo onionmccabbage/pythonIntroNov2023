@@ -7,9 +7,11 @@ class Weather():
         self.city = city
         self.desc = desc # make use of the setter methods
         self.temp = temp
-    def getCity(self):
+    @property
+    def city(self):
         return self.__city
-    def setCity(self, new_city):
+    @city.setter
+    def city(self, new_city):
         if type(new_city) == str and len(new_city)>2:
             self.__city = new_city
         else:
@@ -32,7 +34,8 @@ class Weather():
         # output a nicely formatted weather report
         report  = f'The weather in {self.city} is {self.desc} at {self.temp}C'
         return report
-    city = property(getCity, setCity)
+    # city = property(getCity, setCity)
+    # there is a perfectly good alternative for declaring properties
     desc = property(getDesc, setDesc)
     temp = property(getTemp, setTemp)
 
