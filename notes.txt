@@ -86,19 +86,19 @@ Tuesday
 Wednesday
 - Miguel: see if we can resolve system
 - brief review so far
-- functions live in classes, which live in modules which live in packages
+> functions live in classes, which live in modules which live in packages
 - architecture: modules __init__.py and __name__ == '__main__'
 - PEP8 style guide
-- generator and yield
+> generator and yield
 > global and local scope 
 > read and write binary files (bytes) - use 'b' isntead of 't'
-- data modelling structures: 
+> data modelling structures: 
     use built in structures until they do not suit the purpose (then use classes)
-- Objects and Classes (OOP)
+> Objects and Classes (OOP)
 q - can we use [] with classes?
 q - be specific where we read/write files
-- get/set as property decorators @property
-- name mangling (__)
+> get/set as property decorators @property
+> name mangling (__)
     we should use getter/setter to prevent direct access, 
     but we can add arbitrary properies and methods to a class
 - properties, methods, __str__

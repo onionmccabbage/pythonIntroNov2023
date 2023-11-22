@@ -9,6 +9,11 @@ person[1] = -99 # there is no built in validation for this structure
 # class Person: # by convention we use PascalCase
 # class Person(): # by default every class inherits implicitly from 'object'
 class Person(object): # we may choose to explicitly inherit from someting else
+    '''we often write a docstring to document our class
+    Here we declare any methods and properties of the class
+    This is available as __doc__ (a built-in)'''
+    # built-in parts of python are often called 'dunder' double-underscore before and after
+    
     def __init__(self, name, age, level): # every function within a class MUST take 'self'
         '''The initialiser is a bit like a constructor'''
         self.name  = name
@@ -52,6 +57,9 @@ class Person(object): # we may choose to explicitly inherit from someting else
             self.__name = new_name
         else:
             self.__name = 'Default Name'
+    # we can override the built-in __str__ (used by 'print')
+    def __str__(self):
+        return f'{self.name} is {self.age} with access level {self.level}'
 
 if __name__ == '__main__':
     p1 = Person('Agnes', 34, 'user') # we now have an instance of our 'Person' class
@@ -66,3 +74,5 @@ if __name__ == '__main__':
     print(f'{p1.name} is {p1.age} and has access level: {p1.level}')
     # what types of data do we have
     print(type(p1.name)) # str - yes it worked!!
+    print(Person.__doc__)
+    print(p2) # this uses the default print of the class
