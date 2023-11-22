@@ -21,12 +21,12 @@ https://github.com/onionmccabbage/pythonIntroNov2023
 
 Monday
 > Welcome
-- where to write code: immediate, module (just a file) etc.
+> where to write code: immediate, module (just a file) etc.
   Pycharm or VSCode or ...
-q - code  completion and introspection - how to see what is available
+> code  completion and introspection - how to see what is available
 > can we use shortcut keys to indent (format) like shift-F4
-q - can we use float in a range???
-- overview of Python 3 (and Python 2)
+> can we use float in a range??? Nope range only respects int values
+> overview of Python 3 (and Python 2)
 - architecture, structure, and professional code best practice
 > print() and input()
 > maths operators and data types
@@ -39,7 +39,7 @@ q - can we use float in a range???
 - memory efficiency
 > identifiers
 > boolean True and False
-- type and type conversion
+> type and type conversion list() tuple() str() int() float()
 > validate input before casting it
 - string manipulation
 > Lists, Tuples and nested collections
@@ -65,7 +65,7 @@ Tuesday
   we will see something similar with classes
 > block scope and global scope
 - follow good practice for architecture and performance
-- range, generators
+>range, generators
 - set comprehension, list compresension, dictionary comprehension
 - other implementations of Python: cpython is the default - also jython ipython ironpython
 > functions, *args, **kwargs  
@@ -79,18 +79,19 @@ Tuesday
 > exception handling (try-except etc.)
 > review exercise
 > import path
-- overview of testing
+> overview of testing
 > File input and output
 > bytes (binary files)
 
 Wednesday
+- Miguel: see if we can resolve system
 - brief review so far
 - functions live in classes, which live in modules which live in packages
 - architecture: modules __init__.py and __name__ == '__main__'
 - PEP8 style guide
-- custom generator and yield
-- global and local scope 
-- read and write binary files (bytes) - use 'b' isntead of 't'
+- generator and yield
+> global and local scope 
+> read and write binary files (bytes) - use 'b' isntead of 't'
 - data modelling structures: 
     use built in structures until they do not suit the purpose (then use classes)
 - Objects and Classes (OOP)
@@ -102,14 +103,15 @@ Wednesday
 - documentation strings (docstring) for classes
 - special operators and overriding
 - inheritance
-- composition, static and class methods
 - review exercise
 - how to format with certain dp
-- debug tools
+> debug tools
 - where to go from here:
   https://pynative.com/python-exercises-with-solutions/
   the next courses: advanced python then further advanced python
 - end of course feedback
+
+    https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/be75b744-3106-4582-b972-5feee8b37d99
 
 Links
 - Python official site https://python.org
