@@ -6,7 +6,9 @@ def writeOutput(t):
     # we could use an absolute path to the file
     try:
         # the default is 't' for text
-        fobj = open('my_file.txt', 'a') # 'a' will append. If it does not exist it will be created
+        # we can specify an absolute path to the fikle to be written
+        # fobj = open('my_file.txt', 'a') # 'a' will append. If it does not exist it will be created
+        fobj = open('D:/pythonIntroNov2023/logs/my_file.txt', 'a') # 'a' will append. If it does not exist it will be created
         # fobj = open('my_file.txt', 'w') # we can also say w for (over)write
         # fobj = open('my_file.txt', 'x') # 'x' Exclusive access
         print(t, file=fobj)

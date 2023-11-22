@@ -102,9 +102,9 @@ q - be specific where we read/write files
     we should use getter/setter to prevent direct access, 
     but we can add arbitrary properies and methods to a class
 - properties, methods, __str__
-- documentation strings (docstring) for classes
-- special operators and overriding
-- inheritance
+> documentation strings (docstring) for classes
+> special operators and overriding
+> inheritance
 - review exercise
 - how to format with certain dp
 > debug tools
