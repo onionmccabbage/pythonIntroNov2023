@@ -114,7 +114,7 @@ there is a library called 'pandas' which includes the ability to open and save E
   https://pynative.com/python-exercises-with-solutions/
   the next courses: advanced python then further advanced python
 - end of course feedback
-
+    https://apps.powerapps.com/play/17579985-153c-4727-b1f4-8b53e48b5e72?tenantId=92e84ceb-fbfd-47ab-be52-080c6b87953f&Type=ILT&ID=LD_ADHOC_MELA_1588&OID=511376&Title=Programming%20in%20Python&Owner=Nitin%20Tiwari
     https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/be75b744-3106-4582-b972-5feee8b37d99
 
 Links
