@@ -22,6 +22,7 @@ print(next(g)) # 16
 print(next(g)) # 25
 
 # comprehension - comprehensively deal with every member of a collection
+# comprehension is a concept (not a data type or class)
 odds_l = [ i for i in range(1, 11111111, 2) ] # these values now all exist in memory
 odds_g = ( i for i in range(1, 11111111, 2) ) # these values DO NOT exist in memory
 odds   = list( i for i in range(1, 11111111, 2) ) # these values DO exist in memory
