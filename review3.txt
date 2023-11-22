@@ -1,0 +1,37 @@
+Python Review 3
+===============
+- Alter these instructions to suit your thinking
+- Aim for good architecture (maybe use separate modules, remember 'if __name__...')
+- Look online, talk to each other, ask me etc.
+- There will be an opportunity to share your code
+
+Write a 'Weather' class with get/set methods for 'city', 'description' and 'temperature'
+Make the 'city' default to 'Athlone'
+Write a module to read in the contents of a 'weather report' file (in JSON format)
+Convert the raw JSON into a Python structure using json.loads() 
+Use parts of this structure to populate an instance of your 'Weather' class
+  e.g. description =  weather_dict['weather'][0]['description']
+
+In your Weather class, override __str__ so the class prints nicely, something like
+  'The weather in Athlone is cloudy'
+
+Your class should validate:
+  - the values for 'city' and 'description are both non-empty strings of three or more characters
+  - if city is missing or unacceptable, you should provide a sensible default (e.g. 'Athlone')
+  - the 'temperature' must be a number (int or float)
+  The temperature value will be weather_dict['main']['temp']
+
+Write try-except blocks around some of your code (e.g. the file-read access)
+
+Optional
+--------
+Ask teh user which city they would like. check it matches one of our weather reports
+Read the relevant JSON file, populate a Weather instance and show a nice weather report
+Use the returned data to populate values for temperature in your Weather instance
+
+If time
+-------
+Print the nicely formatted weather to a text file (maybe include a timestamp)
+Also provide a mechanism to read back the weather from the text file
+
+If you have Requests installed
