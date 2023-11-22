@@ -46,7 +46,7 @@ if __name__ == '__main__':
     w_gal = Weather('Galway', 'windy', 6.70)
     w_kt  = Weather('Kingston', 'sunny', 27.98)
    
-    print(w_gen)
+    print(w_gen) # print will call the __str__ method
     print(w_gal)
     print(w_kt)
 

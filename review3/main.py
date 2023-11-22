@@ -10,7 +10,7 @@ def getWeather(city='Athlone'):
     resp_dict = resp.json()
     return resp_dict
 
-def buildWeatherInstance(city='Athlone'):
+def buildWeatherInstance(city='Genoa'):
     weather_dict = getWeather(city)
     desc = weather_dict['weather'][0]['description']
     temp = weather_dict['main']['temp']
