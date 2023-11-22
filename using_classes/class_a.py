@@ -37,6 +37,17 @@ class Person: # by convention we use PascalCase
             # raise TypeError('Level must be user admin or guest')
             self.__level = 'guest'
     # write the getter and setter to validate the name as a non-empty string (choose a sensible default)
+    # Notice: these functions appear as properties
+    @property
+    def name(self):
+        return self.__name
+    @name.setter
+    def name(self, new_name):
+        # this is where we enforce the data type of a class property
+        if type(new_name) == 'str' and new_name != '':
+            self.__name = new_name
+        else:
+            self.__name = 'Default Name'
 
 if __name__ == '__main__':
     p1 = Person('Agnes', 34, 'user') # we now have an instance of our 'Person' class
@@ -45,4 +56,7 @@ if __name__ == '__main__':
     # print(p1['age'], p2['level']) # or we can use square-bracket notation
     # we can mutate properties of our class
     p1.age = -32 # we need to enforce validation for age
-    print(f'{p1.name} is {p1.__age} and has access level: {p1.level}')
+    # remember we cannot directly access p1.__age
+    print(f'{p1.name} is {p1.age} and has access level: {p1.level}')
+    # what types of data do we have
+    print(type(p1.name)) # str - yes it worked!!
