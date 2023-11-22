@@ -9,6 +9,6 @@ def writeCleanly(t):
         # When the 'with' operator ends, the file access object will be automatically closed
     except Exception as err:
         print(f'Oh dear... {err}')
-        
+
 if __name__ == '__main__':
     writeCleanly('this is nicely output and the file access object is automatically closed')
