@@ -6,7 +6,9 @@ person = ['Ethel', 32, 'admin']
 person[1] = -99 # there is no built in validation for this structure
 
 # a class lets us gather related data and validate the values
-class Person: # by convention we use PascalCase
+# class Person: # by convention we use PascalCase
+# class Person(): # by default every class inherits implicitly from 'object'
+class Person(object): # we may choose to explicitly inheirt from someting else
     def __init__(self, name, age, level): # every function within a class MUST take 'self'
         '''The initialiser is a bit like a constructor'''
         self.name  = name
@@ -15,7 +17,7 @@ class Person: # by convention we use PascalCase
     @property # this is called a property decorator. We write a getter and setter method
     def age(self):
         # A mangled name is almost impossible to access from outside this class
-        # CAREFUL we CANNOT call it self.age (this would vcall the function again)
+        # CAREFUL we CANNOT call it self.age (this would call the function again)
         return self.__age # NB this is called 'name mangling'
     @age.setter
     def age(self, new_age):
@@ -44,7 +46,8 @@ class Person: # by convention we use PascalCase
     @name.setter
     def name(self, new_name):
         # this is where we enforce the data type of a class property
-        if type(new_name) == 'str' and new_name != '':
+        # if type(new_name) == 'str' and new_name != '':
+        if type(new_name) == 'str' and len(new_name)>0:
             self.__name = new_name
         else:
             self.__name = 'Default Name'
